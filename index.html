@@ -1,0 +1,109 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" autocomplete="off">
+        <fieldset>
+          <legend>Nustatymai</legend>
+          <label for="personal"
+            >Vartotojai gali pridėti savo asmeninius elementus
+          </label>
+          <select name="personal" id="personal">
+            <option value="1">Ne</option>
+            <option value="2">Taip</option>
+          </select>
+          <label for="refresh">Atnaujinti</label>
+          <select name="refresh" id="refresh">
+            <option value="1">Tik dėstytojui</option>
+            <option value="2">Ne tik dėstytojui</option>
+          </select>
+          <label for="calendar">Datas susieti su kalendoriumi</label>
+          <select name="calendar" id="calendar">
+            <option value="1">Taip</option>
+            <option value="2">Ne</option>
+          </select>
+          <label for="comments"
+            >Dėstytojai gali komentuoti<span
+              class="asterisk"
+              title="Privaloma užpildyti"
+              >*</span
+            ></label
+          >
+          <select name="comments" id="comments">
+            <option value="1">Taip</option>
+            <option value="2">Ne</option>
+          </select>
+          <label for="evaluation"
+            >Didžiausias įvertinimas<span
+              class="asterisk"
+              title="Privaloma užpildyti"
+              >*</span
+            ></label
+          >
+          <input
+            type="number"
+            name="evaluation"
+            id="evaluation"
+            min="0"
+            max="10"
+          />
+          <label for="on-completion"
+            >Siųsti dėstytojui kai sąrašas yra baigtas
+            <img
+              src="images/question-logo.png"
+              height="13px"
+              title="Papildoma informacija"
+            />
+          </label>
+          <select name="on-completion" id="on-completion">
+            <option value="1">Ne</option>
+            <option value="2">Taip</option>
+          </select>
+          <label for="show-modules"
+            >Rodyti studijų dalyko modulius sąraše
+            <img
+              src="images/question-logo.png"
+              height="13px"
+              title="Papildoma informacija"
+          /></label>
+          <select name="show-modules" id="show-modules">
+            <option value="1">Visas studijų dalykas</option>
+            <option value="2">Nevisas</option>
+          </select>
+          <label for="suspend"
+            >Sustabdyti pažymėjimą, kai moduliai užbaigiami
+            <img
+              src="images/question-logo.png"
+              height="13px"
+              title="Papildoma informacija"
+          /></label>
+          <select name="suspend" id="suspend">
+            <option value="1">Taip, galima perrašyti</option>
+            <option value="2">Ne</option>
+          </select>
+          <label for="forbid"
+            >Uždrausti dėstytojo žymėjimą<span
+              class="asterisk"
+              title="Privaloma užpildyti"
+              >*</span
+            >
+            <img
+              src="images/question-logo.png"
+              height="13px"
+              title="Papildoma informacija"
+          /></label>
+          <select name="forbid" id="forbid">
+            <option value="1">Ne</option>
+            <option value="2">Taip</option>
+          </select>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

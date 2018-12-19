@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  width: 45%; }
+
+* {
+  font-family: Georgia, "Times New Roman", Times, serif; }
+
+legend {
+  font-weight: bold; }
+
+form > fieldset {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-gap: 5px; }
+
+h1 {
+  grid-column: 1 / 3;
+  text-align: center;
+  margin: 5px; }
+
+label {
+  grid-column: 1 / 2;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 14px; }
+
+input,
+select {
+  grid-column: 2 / 3;
+  width: 100%; }
+
+.asterisk {
+  color: green; }
